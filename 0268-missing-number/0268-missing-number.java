@@ -12,9 +12,9 @@ class Solution {
         
         for(Integer s : nums)
         {
-            lessSum = lessSum + s;
+            Totalsum = Totalsum - s;
         }
-        return (Totalsum - lessSum);
+        return  Totalsum;
         
     }
 }
